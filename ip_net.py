@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# convert network address to bin
+
 network = input('Type network in format 10.1.1.0/24: ')
 
 ip, mask = network.split('/')
